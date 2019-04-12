@@ -7,3 +7,4 @@ The best python exception library
 ![Codecov](https://img.shields.io/codecov/c/github/jmp1985/halerror.svg)
 [![Language grade: Python](https://img.shields.io/lgtm/grade/python/g/jmp1985/halerror.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/jmp1985/halerror/context:python)
 [![Total alerts](https://img.shields.io/lgtm/alerts/g/jmp1985/halerror.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/jmp1985/halerror/alerts/)
+[![Documentation Status](https://readthedocs.org/projects/halerror/badge/?version=latest)](https://halerror.readthedocs.io/en/latest/?badge=latest)
