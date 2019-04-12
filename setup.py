@@ -9,6 +9,8 @@ setup(
     license="BSD",
     keywords="HAL-9000",
     packages=["halerror"],
-    install_requires=["pytest"],
+    install_requires=[
+        "pytest",
+    ],
     classifiers=["License :: OSI Approved :: BSD License"],
 )
