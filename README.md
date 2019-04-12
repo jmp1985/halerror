@@ -1,2 +1,6 @@
 # halerror
 The best python exception library
+
+![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)
+> [![Language grade: Python](https://img.shields.io/lgtm/grade/python/g/jmp1985/halerror.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/jmp1985/halerror/context:python)
+> [![Total alerts](https://img.shields.io/lgtm/alerts/g/jmp1985/halerror.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/jmp1985/halerror/alerts/)
