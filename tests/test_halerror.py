@@ -12,10 +12,9 @@ from halerror import HalError
 def test_halerror():
 
     expected_output = (
+        "Open the pod bay doors, HAL."
         "\n\n"
         "I'm sorry, .*. I'm afraid I can't do that."
-        "\n\n"
-        "Open the pod bay doors, HAL."
     )
 
     with pytest.raises(HalError, match=expected_output):
@@ -30,10 +29,9 @@ def test_halerror_no_getuser(mocked_getuser):
     mocked_getuser.side_effect = raise_runtime_error
 
     expected_output = (
+        "Open the pod bay doors, HAL."
         "\n\n"
         "I'm sorry, Dave. I'm afraid I can't do that."
-        "\n\n"
-        "Open the pod bay doors, HAL."
     )
 
     with pytest.raises(HalError, match=expected_output):

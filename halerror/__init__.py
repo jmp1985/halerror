@@ -30,7 +30,7 @@ class HalError(RuntimeError):
         # Get the template
         if template is None:
             template = (
-                "\n\nI'm sorry, {username}. I'm afraid I can't do that.\n\n{message}"
+                "{message}\n\nI'm sorry, {username}. I'm afraid I can't do that."
             )
 
         # Put in HAL error text.

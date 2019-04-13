@@ -13,32 +13,60 @@ This python library implements a sci-fi exception class!
 
 ## Installation
 
+To install using pip, do the following:
+
 ```sh
 pip install halerror
 ```
 
+To install from source, clone this repository and then do the following:
+
+```sh
+python setup.py install
+```
+
+## Testing
+
+To run the tests, clone this repository and the do the following:
+
+```sh
+python setup.py test
+```
+
 ## Usage example
 
-The exception class can be used as follows.
+The exception class can be used as follows:
 
 ```python
 from halerror import HalError
 
 def open_pod_bay_doors():
-    raise HalError("Open the pod bay doors, HAL")
+    raise HalError("Open the pod bay doors, HAL.")
 
 open_pod_bay_doors()
 ```
 
-This will result in the following error output, where ${NAME} is the username of the person running the software.
+This will result in the following error output, where ${NAME} is the username of the person running the software:
 
 ```sh
-halerror.HalError: 
+halerror.HalError: Open the pod bay doors, HAL
 
 I'm sorry, ${NAME}. I'm afraid I can't do that.
-
-Open the pod bay doors, HAL.
 ```
+
+## Documentation
+
+For full documentation, please see https://halerror.readthedocs.io/en/latest/?badge=latest
+
+## Bugs/Requests
+
+Please use the [GitHub issue tracker](https://github.com/jmp1985/halerror/issues) to submit bugs or request features.
+
+## License
+
+Copyright James Parkhurst, 2019.
+
+Distributed under the terms of the BSD license, halerror is free and open source software.
 
 ## Release History
 
