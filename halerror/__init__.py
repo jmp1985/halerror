@@ -5,6 +5,7 @@
 #
 import getpass
 
+
 class HalError(RuntimeError):
     """
     A sci-fi error message!

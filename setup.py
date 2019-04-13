@@ -14,9 +14,6 @@ setup(
     license="BSD",
     keywords="HAL-9000",
     packages=["halerror"],
-    install_requires=[
-        "pytest",
-        "mock",
-    ],
+    install_requires=["pytest", "mock"],
     classifiers=["License :: OSI Approved :: BSD License"],
 )
