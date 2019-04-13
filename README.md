@@ -24,7 +24,10 @@ The exception class can be used as follows.
 ```python
 from halerror import HalError
 
-raise HalError("Open the pod bay doors HAL")
+def open_pod_bay_doors():
+    raise HalError("Open the pod bay doors, HAL")
+
+open_pod_bay_doors()
 ```
 
 This will result in the following error output, where ${NAME} is the username of the person running the software.
