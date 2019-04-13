@@ -7,7 +7,9 @@
 [![Codecov](https://img.shields.io/codecov/c/github/jmp1985/halerror.svg)](https://codecov.io/gh/jmp1985/halerror)
 [![Language grade: Python](https://img.shields.io/lgtm/grade/python/g/jmp1985/halerror.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/jmp1985/halerror/context:python)
 [![Total alerts](https://img.shields.io/lgtm/alerts/g/jmp1985/halerror.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/jmp1985/halerror/alerts/)
-[![Documentation Status](https://readthedocs.org/projects/halerror/badge/?version=latest)](https://halerror.readthedocs.io/en/latest/?badge=latest)
+[![Documentation Status](https://readthedocs.org/projects/halerror/badge/?version=latest)](https://halerror.readthedocs.io/en/latest/)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/halerror.svg)](https://pypi.org/project/halerror/)
+[![PyPI](https://img.shields.io/pypi/v/halerror.svg)](https://pypi.org/project/halerror/)
 
 This python library implements a sci-fi exception class!
 
@@ -56,7 +58,7 @@ I'm sorry, ${NAME}. I'm afraid I can't do that.
 
 ## Documentation
 
-For full documentation, please see https://halerror.readthedocs.io/en/latest/?badge=latest
+For full documentation, please see https://halerror.readthedocs.io/en/latest
 
 ## Bugs/Requests
 
