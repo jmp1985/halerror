@@ -1,17 +1,28 @@
-from getpass import getuser
-
+#
+# Copyright (C) 2019 James Parkhurst
+#
+# This code is distributed under the BSD license.
+#
+import getpass
 
 class HalError(RuntimeError):
     """
-    A class implementation an exception.
+    A sci-fi error message!
 
     """
 
     def __init__(self, message="", template=None):
+        """
+        Initialise the exception
+
+        :param message: The exception message
+        :param template: The exception template  
+
+        """
 
         # Get the username
         try:
-            username = getuser()
+            username = getpass.getuser()
         except Exception:
             username = "Dave"
 
