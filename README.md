@@ -70,7 +70,7 @@ except Exception as error:
 
 ## Documentation
 
-For full documentation, please see https://halerror.readthedocs.io/en/latest
+You can find the full documentation on [Read the Docs](https://halerror.readthedocs.io/en/latest).
 
 ## Issues
 
