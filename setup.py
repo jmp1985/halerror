@@ -5,6 +5,7 @@
 #
 from setuptools import setup
 
+
 def main():
     """
     Setup the package
@@ -18,5 +19,6 @@ def main():
         test_suite="tests",
     )
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     main()

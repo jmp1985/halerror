@@ -59,7 +59,7 @@ I'm sorry, ${NAME}. I'm afraid I can't do that.
 
 For full documentation, please see https://halerror.readthedocs.io/en/latest
 
-## Bugs/Requests
+## Issues
 
 Please use the [GitHub issue tracker](https://github.com/jmp1985/halerror/issues) to submit bugs or request features.
 
@@ -68,10 +68,3 @@ Please use the [GitHub issue tracker](https://github.com/jmp1985/halerror/issues
 Copyright James Parkhurst, 2019.
 
 Distributed under the terms of the BSD license, halerror is free and open source software.
-
-## Release History
-
-* 0.1.0
-  * The first release
-
-
