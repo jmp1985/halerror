@@ -14,6 +14,7 @@ This python library implements a sci-fi exception class!
 
 ## Installation
 
+The package is available from [PyPI](https://pypi.org/project/halerror/0.4.0/).
 To install using pip, do the following:
 
 ```sh
@@ -32,6 +33,15 @@ To run the tests, clone this repository and the do the following:
 
 ```sh
 python setup.py test
+```
+
+## Building the documentation
+
+To build the documenation, clone this repository and the do the following:
+
+```sh
+pip install .[build_sphinx]
+python setup.py build_sphinx
 ```
 
 ## Usage examples

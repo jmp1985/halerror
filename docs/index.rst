@@ -14,21 +14,16 @@ This python library implements a sci-fi exception class!
 
    API documentation <modules>
 
-Source code
------------
-
-The source code is hosted on `GitHub <https://github.com/jmp1985/halerror/>`_.
-
 Installation
 ------------
 
-To install using pip, do the following:
+The package is available from `PyPI <https://pypi.org/project/halerror/0.4.0/>`_. To install using pip, do the following:
 
 .. code-block:: bash
 
     pip install halerror
 
-To install from source, clone this repository and then do the following:
+To install from source, clone the `GitHub <https://github.com/jmp1985/halerror/>`_ repository and then do the following:
 
 .. code-block:: bash
 
@@ -37,11 +32,21 @@ To install from source, clone this repository and then do the following:
 Testing
 -------
 
-To run the tests, clone this repository and the do the following:
+To run the tests, download the source code and do the following:
 
 .. code-block:: bash
 
     python setup.py test
+
+Building the documentation
+--------------------------
+
+To build this documenation, download the source code and the do the following:
+
+.. code-block:: bash
+    
+    pip install .[build_sphinx]
+    python setup.py build_sphinx
 
 Usage examples
 --------------
