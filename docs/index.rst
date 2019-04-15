@@ -17,7 +17,7 @@ This python library implements a sci-fi exception class!
 Source code
 -----------
 
-The source code is hosted on `github <https://github.com/jmp1985/halerror/>`_.
+The source code is hosted on `GitHub <https://github.com/jmp1985/halerror/>`_.
 
 Installation
 ------------
