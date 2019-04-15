@@ -43,8 +43,8 @@ To run the tests, clone this repository and the do the following:
 
     python setup.py test
 
-Usage example
--------------
+Usage examples
+--------------
 
 The exception class can be used as follows:
 
@@ -57,13 +57,26 @@ The exception class can be used as follows:
 
     open_pod_bay_doors()
 
-This will result in the following error output, where ${NAME} is the username of the person running the software:
+This will result in the following error output, where ${NAME} is the username
+of the person running the software:
 
 .. code-block:: text
 
     halerror.HalError: Open the pod bay doors, HAL
     
     I'm sorry, ${NAME}. I'm afraid I can't do that.
+
+Having all your exceptions formatted like this is as easy as adding the
+following lines to your code
+
+.. code-block:: python
+
+    from halerror import HalError
+
+    try:
+        open_pod_bay_doors()
+    except Exception as error:
+        raise HalError(error) from error
 
 API documentation
 -----------------
@@ -73,7 +86,9 @@ Please check out the API documentation :doc:`here <modules/>`.
 Issues
 ------
 
-Please use the `GitHub issue tracker <https://github.com/jmp1985/halerror/issues/>`_ to submit bugs or request features.
+Please use the `GitHub issue tracker
+<https://github.com/jmp1985/halerror/issues/>`_ to submit bugs or request
+features.
 
 License
 -------

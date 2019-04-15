@@ -34,7 +34,7 @@ To run the tests, clone this repository and the do the following:
 python setup.py test
 ```
 
-## Usage example
+## Usage examples
 
 The exception class can be used as follows:
 
@@ -47,12 +47,25 @@ def open_pod_bay_doors():
 open_pod_bay_doors()
 ```
 
-This will result in the following error output, where ${NAME} is the username of the person running the software:
+This will result in the following error output, where ${NAME} is the username
+of the person running the software:
 
 ```
 halerror.HalError: Open the pod bay doors, HAL
 
 I'm sorry, ${NAME}. I'm afraid I can't do that.
+```
+
+Having all your exceptions formatted like this is as easy as adding the
+following lines to your code
+
+```python
+from halerror import HalError
+
+try:
+    open_pod_bay_doors()
+except Exception as error:
+    raise HalError(error) from error
 ```
 
 ## Documentation
