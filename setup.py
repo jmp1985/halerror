@@ -17,6 +17,7 @@ def main():
         setup_requires=["pytest-runner"],
         tests_require=["pytest", "pytest-cov", "mock"],
         test_suite="tests",
+        extras_require={"build_sphinx": ["sphinx", "sphinx_rtd_theme"]},
     )
 
 
