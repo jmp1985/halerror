@@ -40,7 +40,7 @@ python setup.py test
 To build the documenation, clone this repository and the do the following:
 
 ```sh
-pip install .[build_sphinx]
+pip install -e .[build_sphinx]
 python setup.py build_sphinx
 ```
 

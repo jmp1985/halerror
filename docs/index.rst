@@ -45,7 +45,7 @@ To build this documenation, download the source code and the do the following:
 
 .. code-block:: bash
     
-    pip install .[build_sphinx]
+    pip install -e .[build_sphinx]
     python setup.py build_sphinx
 
 Usage examples
