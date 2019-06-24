@@ -25,12 +25,12 @@ class HalError(RuntimeError):
             - message: the error message
             - username: the username
 
-        The default template is: 
+        The default template is:
             {message}\\\\n\\\\nI'm sorry, {username}. I'm afraid I can't do that.
 
         Args:
             message (str): The exception message.
-            template (str): The exception template. 
+            template (str): The exception template.
 
         """
 
